@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: normal;
+}
+
+header h1{
+    margin-left: 16px;
+}
+
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 26px 0;
+    background-color: rgb(6, 67, 6);
+}
+
+header .Cabeçalho{
+    display: flex;
+    justify-content:space-between;
+    height: 30px;
+}
+
+header .Cabeçalho h1{
+    color: rgb(255, 255, 255);
+}
+
+header nav li{
+    display: inline;
+    margin-left: 1px;
+    font-size: 18px;
+    margin-right: 16px;
+    padding: 16px;
+}
+
+header nav li a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 16px 0;
+}
+
+
+.Acompanhe img {
+    height: 24px;
+}
+
+.Bioimagem{
+    height: 300px;
+    padding: 16px 16px;
+    margin-right: 26px;
+}
+
+section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .content{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+
+}
+
+section .content p {
+    margin-bottom: 8px;
+    align-items: flex-start;
+}
+
+.Assuntos-Espec li{
+    display: inline;
+}
+
+.Assuntos-Espec a{
+    text-decoration: none;
+    margin-right: 16px;
+    padding: 16px auto;
+    color: rgb(6, 67, 6);
+    font-weight: bolder;
+}
+
+section h2, 
+section h3{
+    font-weight: bolder;
+    padding: 16px 16px;
+    color: rgb(6, 67, 6);
+}
+
+.Acompanhe li a{
+    text-decoration: none;
+}
+
+#Chat .content{
+    display: flex;
+}
+
+.Acompanhe{
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.Acompanhe li{
+    display: inline;
+}
+
+.Acompanhe a{
+    margin-right: 8px;
+    padding: 8px auto;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(6, 67, 6);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(6, 67, 6);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(6, 67, 6);
+}
+
+footer .Direitos{
+    background-color: rgb(6, 67, 6);
+    height: 30px;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 16px 0;
+}
+
